@@ -40,10 +40,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="class\Category.cs" />
-        <Compile Include="class\Message.cs" />
-        <Compile Include="class\Review.cs" />
-        <Compile Include="class\Service.cs" />
+        <Compile Include="models\Category.cs" />
+        <Compile Include="models\Message.cs" />
+        <Compile Include="models\Review.cs" />
+        <Compile Include="models\Service.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
