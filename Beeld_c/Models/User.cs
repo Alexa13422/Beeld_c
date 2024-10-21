@@ -46,7 +46,7 @@
         }
 
         // Retrieve extent (read-only)
-        public static IReadOnlyList<User> GetExtent()
+        public static IEnumerable<User> GetExtent()
         {
             return _extent.AsReadOnly();
         }
